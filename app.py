@@ -11,7 +11,7 @@ from wordcloud import WordCloud
 from nltk.sentiment import SentimentIntensityAnalyzer
 from shapely.geometry import shape
 
-
+#Sentiment Analysis
 nltk.download("vader_lexicon")
 sia = SentimentIntensityAnalyzer()
 
@@ -57,8 +57,10 @@ def fetch_reddit_data():
 
     return pd.DataFrame(data)
 
+#Creating the tabs for streamlit
 tab1, tab2 = st.tabs(["Reddit Sentiment Analysis", "Immigration Data"])
 
+#Reddit Scraping and Word Cloud Visuals
 with tab1:
     st.header("Reddit Sentiment Analysis")
     st.subheader("Analyze the sentiment of Reddit discussions on undocumented immigrants. Press 'Fetch Data' to your left to get posts and comments from Reddit pertaining to the query and subquery of your choice! ")
@@ -94,6 +96,7 @@ with tab1:
             else:
                 cols[i].write(f"No {sentiment} sentiment data available")
 
+#Choropleth Visualization
 with tab2:
     st.header("Undocumented Immigration Data by State")
     st.markdown("<h5 style='color:red;'>Below is a choropleth map that represents the total amount of undocumented immigrants in each state in the U.S. It's interesting to see the changes overtime, especially in California and Texas. Press the play button below!</h5>", unsafe_allow_html=True)
