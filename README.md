@@ -53,8 +53,10 @@ Reddit Sentiment Analysis:
 
 
 # Data Sources
-Geographic Data: /n
-    File: gz_2010_us_040_00_500k.json /n
+Geographic Data: 
+
+    File: gz_2010_us_040_00_500k.json 
+    
     Source: US Census Bureau
 
 
