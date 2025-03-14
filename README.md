@@ -53,19 +53,13 @@ Reddit Sentiment Analysis:
 
 
 # Data Sources
-Geographic Data:
-    '''
-    File: gz_2010_us_040_00_500k.json
-    '''
-    '''
+Geographic Data: /n
+    File: gz_2010_us_040_00_500k.json /n
     Source: US Census Bureau
-    '''
+
 
 Immigration Data:
-    '''
+  
     File: CMS-data-undoc-state_2010-2019.csv
-    '''
-    '''
     Source: Center for Migration Studies
-    '''
 
