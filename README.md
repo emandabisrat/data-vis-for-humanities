@@ -6,14 +6,14 @@ This project visualizes undocumented immigration data across US states from 2010
 
 ## File Structure
 '''bash/
-data-vis-for-humanities/
-│
-├── app.py                  # Main Streamlit application file
-├── requirements.txt        # Python dependencies
-├── data/                   # Folder containing the data files (e.g., geojson, csv)
-│   ├── gz_2010_us_040_00_500k.json   # GeoJSON data for U.S. states
-│   ├── CMS-data-undoc-state_2010-2019.csv # Immigration data CSV
-├── README.md               # Project documentation
+    data-vis-for-humanities/
+    │
+    ├── app.py                  # Main Streamlit application file
+    ├── requirements.txt        # Python dependencies
+    ├── data/                   # Folder containing the data files (e.g., geojson, csv)
+    │   ├── gz_2010_us_040_00_500k.json   # GeoJSON data for U.S. states
+    │   ├── CMS-data-undoc-state_2010-2019.csv # Immigration data CSV
+    ├── README.md               # Project documentation
 '''
 ## Requirements
 To run this, you need the Python Libraries which can be found in requirements.txt. Run the following command to install these files:
