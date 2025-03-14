@@ -1,8 +1,11 @@
-# data-vis-for-humanities
+# README : data-vis-for-humanities
 Undocumented Immigration Data Visualization and Reddit Sentiment Analysis 
 
 ## Description
 This project visualizes undocumented immigration data across US states from 2010 to 2019 using a choropleth map. It also performs sentiment analysis on Reddit posts and comments related to immigration topics. The application is built using Streamlit, Plotly, and Python.
+
+## Clone Repository
+To clone this repository to your local machine, run the following command : git clone https://github.com/emandabisrat/data-vis-for-humanities.git
 
 ## File Structure
 ```
