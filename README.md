@@ -39,13 +39,10 @@ streamlit run app.py
 
 ## Usage
 Immigration Data Visualization:
-
     Select a year using the slider to view undocumented immigration data for that year.
     The choropleth map will update automatically.
 
-
 Reddit Sentiment Analysis:
-
     Enter a search query (e.g., "Illegal Immigration") in the sidebar.
     Select subreddits to analyze (e.g., "Trump", "wall").
     Click "Fetch Data" to retrieve and analyze Reddit posts and comments.
@@ -55,14 +52,10 @@ Reddit Sentiment Analysis:
 
 # Data Sources
 Geographic Data: 
-
     File: gz_2010_us_040_00_500k.json 
-
     Source: US Census Bureau
 
-
 Immigration Data:
-  
     File: CMS-data-undoc-state_2010-2019.csv
     Source: Center for Migration Studies
 
