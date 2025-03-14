@@ -5,7 +5,7 @@ Undocumented Immigration Data Visualization and Reddit Sentiment Analysis
 This project visualizes undocumented immigration data across US states from 2010 to 2019 using a choropleth map. It also performs sentiment analysis on Reddit posts and comments related to immigration topics. The application is built using Streamlit, Plotly, and Python.
 
 ## File Structure
-'''bash/
+'''bash
     data-vis-for-humanities/
     │
     ├── app.py                  # Main Streamlit application file
