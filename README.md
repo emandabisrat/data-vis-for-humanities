@@ -1,4 +1,4 @@
-# README : data-vis-for-humanities
+# README
 Undocumented Immigration Data Visualization and Reddit Sentiment Analysis 
 
 ## Description
