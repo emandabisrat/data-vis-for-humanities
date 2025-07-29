@@ -32,7 +32,7 @@ nltk.download("vader_lexicon")
 
 
 ## Reddit API Credentials
-Client_id and client_secret is available in app.py but if there is any trouble, its very easy to get a Reddit API. Create one at the Reddit Developer Portal: https://www.reddit.com/prefs/apps
+To create a Reddit API, you are able to create one at the Reddit Developer Portal: https://www.reddit.com/prefs/apps
 
 ## Run Streamlit App
 Run the following command in your terminal:
